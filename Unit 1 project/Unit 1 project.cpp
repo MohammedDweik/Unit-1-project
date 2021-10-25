@@ -32,7 +32,7 @@ float totalhours(float a, float b, float c, float t)
 //function to calculate total cost for hours work
 float costhours(float d, float e, float f, float t)
 {
-    return ((d * f * 2) + (f * e * 2) + (d * e) - t) / (66) * (22.5);
+    return (((d * f * 2) + (f * e * 2) + (d * e) - t) / (66) * 22.5 * 0.13) + ((d * f * 2) + (f * e * 2) + (d * e) - t) / (66) * (22.5);
 }
 
 //function to round to nearest half hour
